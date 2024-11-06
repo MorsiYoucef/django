@@ -11,3 +11,10 @@ body{
     background-color: black;
     color: whitesmoke;
 }
+
+.banner{
+    display: block;
+    width: 100%;
+    max-width: 800px;
+
+}
