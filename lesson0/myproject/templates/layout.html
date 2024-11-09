@@ -13,6 +13,12 @@
       <a href="/">Home</a>
       <a href="/about">About</a>
       <a href="{% url 'posts:list' %}">Posts</a>
+      <a href="{% url 'users:register' %}">
+        <span aria-label="User Registration">Register</span>
+      </a>
+      <a href="{% url 'users:login' %}">
+        <span aria-label="User Login">Login</span>
+      </a>
     </nav>
     <main>{% block content %} {% endblock %}</main>
   </body>
